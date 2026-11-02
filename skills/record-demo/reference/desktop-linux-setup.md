@@ -24,8 +24,7 @@ providing that library.
 ## Dependencies
 
 Install your app's dependencies, then the recorder's. `<skill-dir>` is the skill
-directory: `.claude/skills/record-demo` in a project, or
-`~/.claude/skills/record-demo` for a personal install.
+directory, defined in [../SKILL.md](../SKILL.md).
 
 ```bash
 pnpm --dir <skill-dir>/desktop install --ignore-workspace

@@ -18,9 +18,8 @@ one self-contained unit.
 Recording runs through a **portable copy** installed at `~/.pr-recorder` with a
 `pr-record` command in `~/.local/bin`, so it works from any directory.
 
-**If `pr-record` is missing**, install it from the skill directory -
-`.claude/skills/record-demo` for a project skill, `~/.claude/skills/record-demo`
-for a personal one:
+**If `pr-record` is missing**, install it from the skill directory
+(`<skill-dir>`, defined in [../SKILL.md](../SKILL.md)):
 
 ```bash
 bash <skill-dir>/web/install-local.sh

@@ -48,9 +48,8 @@ reusable committed example.
 
 ## Rehearse and record
 
-Run the scenario once as a rehearsal, from `<skill-dir>/desktop` (the skill
-directory is `.claude/skills/record-demo` in a project, or
-`~/.claude/skills/record-demo` for a personal install):
+Run the scenario once as a rehearsal, from `<skill-dir>/desktop` (`<skill-dir>` is
+defined in [../SKILL.md](../SKILL.md)):
 
 ```bash
 DEMO_APP_DIR=/path/to/my-app DEMO_WINDOW_TITLE="My App" \

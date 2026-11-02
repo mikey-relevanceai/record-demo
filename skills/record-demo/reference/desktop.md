@@ -46,8 +46,7 @@ operator's way. Skip it when nobody is using the machine.
 
 ## Linux preflight
 
-`<skill-dir>` is the skill directory: `.claude/skills/record-demo` in a project,
-or `~/.claude/skills/record-demo` for a personal install.
+`<skill-dir>` is the skill directory, defined in [../SKILL.md](../SKILL.md).
 
 ```bash
 for command in Xvfb openbox xdotool xdpyinfo ffmpeg ffprobe pnpm; do

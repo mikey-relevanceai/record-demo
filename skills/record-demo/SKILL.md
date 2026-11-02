@@ -62,9 +62,12 @@ anything you cannot find rather than guessing.
 
 ## Where the skill lives
 
-The skill works from a project's `.claude/skills/record-demo` or from your
-personal `~/.claude/skills/record-demo`. Paths in these docs are relative to
-that skill directory; scripts never assume where it is installed.
+`<skill-dir>` in these docs means the directory this `SKILL.md` was loaded
+from. In Claude Code it is `${CLAUDE_SKILL_DIR}`, which works for project,
+personal and plugin installs alike. Elsewhere, use the path the skill was loaded
+from - for Codex, a `.agents/skills/record-demo` folder in the repository or
+`~/.agents/skills/record-demo`. Resolve it once and use the absolute path; the
+scripts never assume where the skill is installed.
 
 ## Rehearse before the take that counts
 

@@ -65,8 +65,8 @@ things keep the dead air out, in the order they matter:
 
 ## Setup
 
-Run from the skill directory's `web/` folder (`.claude/skills/record-demo/web`
-for a project skill, `~/.claude/skills/record-demo/web` for a personal one):
+Run from `<skill-dir>/web`, where `<skill-dir>` is the directory holding the
+skill's `SKILL.md`:
 
 ```bash
 pnpm install

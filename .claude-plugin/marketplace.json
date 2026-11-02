@@ -1,0 +1,11 @@
+{
+  "name": "record-demo",
+  "owner": { "name": "Michael Hudson" },
+  "plugins": [
+    {
+      "name": "record-demo",
+      "source": "./",
+      "description": "Record human-paced MP4 walkthroughs of a web or Electron UI change to attach to a pull request."
+    }
+  ]
+}

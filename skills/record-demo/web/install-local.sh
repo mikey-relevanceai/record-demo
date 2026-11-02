@@ -2,10 +2,9 @@
 # Installs pr-recorder to a stable location outside any git worktree, so you can
 # record demos from any project without the skill being checked out there.
 # Re-run any time to update the installed copy. Run it from wherever the skill
-# is installed, e.g.
+# is installed:
 #
-#   bash .claude/skills/record-demo/web/install-local.sh     # project skill
-#   bash ~/.claude/skills/record-demo/web/install-local.sh   # personal skill
+#   bash <skill-dir>/web/install-local.sh
 #
 # Overridable:
 #   PR_RECORDER_HOME     install dir   (default ~/.pr-recorder)

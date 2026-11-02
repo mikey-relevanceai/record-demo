@@ -1,0 +1,8 @@
+{
+  "name": "record-demo",
+  "description": "Record human-paced MP4 walkthroughs of a web or Electron UI change to attach to a pull request.",
+  "author": {
+    "name": "Michael Hudson"
+  },
+  "repository": "https://github.com/mikey-relevanceai/record-demo"
+}
