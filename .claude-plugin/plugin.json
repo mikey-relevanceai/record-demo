@@ -4,5 +4,6 @@
   "author": {
     "name": "Michael Hudson"
   },
-  "repository": "https://github.com/mikey-relevanceai/record-demo"
+  "repository": "https://github.com/mikey-relevanceai/record-demo",
+  "license": "MIT"
 }
