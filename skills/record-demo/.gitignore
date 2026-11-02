@@ -1,0 +1,13 @@
+# Lives at the skill root so it travels with the skill folder: a project that
+# copies the skill in picks these up without touching its own .gitignore.
+
+# Recorder dependencies, installed per surface (web/, desktop/).
+node_modules/
+
+# Web recorder working files and output, written to its working directory.
+.pr-recorder-video/
+*.mp4
+*.webm
+
+# A demo script copied from demo.example.ts. Demos are throwaway and per-PR.
+web/demo.ts

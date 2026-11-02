@@ -1,0 +1,21 @@
+{
+  "name": "pr-recorder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "install-browser": "playwright install chromium",
+    "install-local": "bash install-local.sh",
+    "record": "tsx record.ts"
+  },
+  "dependencies": {
+    "playwright": "1.60.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.2",
+    "oxfmt": "0.45.0",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
+}

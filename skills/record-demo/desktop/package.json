@@ -1,0 +1,15 @@
+{
+  "name": "record-demo-desktop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Hybrid semantic and X11 recorder for Electron apps",
+  "type": "module",
+  "scripts": {
+    "check": "node --check scripts/demo-helpers.mjs && node --check scripts/record.mjs",
+    "record": "node scripts/record.mjs"
+  },
+  "packageManager": "pnpm@10.34.5",
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}
